@@ -36,6 +36,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
 
     color: white;
 }
@@ -70,4 +71,29 @@ html, body {
     transform: scale(1.2);
 }
 
+.aboutme {
+    width: 40%;
+    height: 50vh;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.texture {
+    border-radius: 50%;
+    width: 30%;
+}
+img {
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: yellow;
+    text-shadow:
+        0 0 10px #ff0,
+        0 0 20px #ff0;
+}
 
