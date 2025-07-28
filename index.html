@@ -7,33 +7,66 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="dotscroll">
-            <a href="#home" class="dot"></a>
-            <a href="#personal" class="dot"></a>
-            <a href="#portfolio" class="dot"></a>
-            <a href="#contact" class="dot"></a>
-        </div>
-        <div class="content">
-            <div id="home" class="section">
-                <div class="aboutme">
-                    <h1>Simon</h1>
-                    <h2>Self-taught programmer and musician</h2>
-                    <p>My name is Simon and I am 17-years old web and game developer, musician and videogame enthusiast from Slovakia. I am interested Linux and Open-Source technology. </p>
-                </div>
-                <img src="images/gojo.jpg" alt="Profile Picture" class="texture">
+    <main>
+            <nav class="dotscroll">
+                <a href="#home" class="dot"></a>
+                <a href="#personal" class="dot"></a>
+                <a href="#portfolio" class="dot"></a>
+                <a href="#contact" class="dot"></a>
+            </nav>
+            <div class="content">
+                <section id="home" class="section">
+                    <article class="aboutme">
+                        <h1>Simon</h1>
+                        <h2>Self-taught programmer and musician</h2>
+                        <p>My name is Simon and I am 17-years old web and game developer, musician and videogame enthusiast from Slovakia. I am interested Linux and Open-Source technology. </p>
+                    </article>
+                    <img src="images/gojo.jpg" alt="Profile Picture" class="texture" id="pfp">
+                </section>
+                <section id="personal" class="section">
+                    <article class="skillssection">
+                        <h1 id="skillTitle">My Skills : </h1>
+                            <span class="skill">
+                                <img class="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                                HTML
+                            </span>
+                            <span class="skill">
+
+                            <img class="skillicon" id="movedleft" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                            CSS
+                            </span>
+                            <span class="skill">
+
+                            <img class="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                            JavaScript
+                            </span>
+                            <span class="skill">
+
+                            <img class="skillicon" id="movedright" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                            Java
+                            </span>
+                            <span class="skill">
+
+                            <img class="skillicon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+                            C++
+                            </span>
+                            <span class="skill">
+                             <img class="skillicon" id="unrealengine" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original.svg" />
+                             Unreal Engine
+
+                            
+
+                            </span>
+                    </article>
+                </section>
+                <section id="portfolio" class="section">
+                    Portfolio
+                </section>
+                <section id="contact" class="section">
+                    Contact
+                </section>
             </div>
-            <div id="personal" class="section">
-                Personal
-            </div>
-            <div id="portfolio" class="section">
-                Portfolio
-            </div>
-            <div id="contact" class="section">
-                Contact
-            </div>
-        </div>
-    </div>
+    </main>
 
     
     <script src="js/script.js"></script>
